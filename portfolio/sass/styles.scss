@@ -55,7 +55,7 @@ header ul li:hover a {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background: $backgroundColor1;
+  background: $mainColor;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,7 +69,7 @@ padding: 100px;
   right: 0;
   width: 40%;
   height: 100vh;
-  background: $mainColor;
+  background: $backgroundColor1;
 }
 #home .content {
   position: relative;
@@ -82,13 +82,28 @@ padding: 100px;
 #home .content h2 {
   position: relative;
   font-size: 5em;
-  color: $mainColor;
+  color: $backgroundColor1;
 }
 #home .content p {
   position: relative;
   color: #fff;
   font-size: 1.2em;
   line-height: 1.6em;
+}
+
+#home .btn {
+  position: relative;
+  display: inline-block;
+  font-size: 1.25em;
+  max-width: 200px;
+  background: $backgroundColor1;
+  color: $mainColor;
+  text-align: center;
+  padding: 18px 30px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  margin-top: 10px;
 }
 
 .btn {
