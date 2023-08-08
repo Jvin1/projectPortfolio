@@ -121,12 +121,6 @@ padding: 100px;
   margin-top: 10px;
 }
 
-#home .men {
-  position: absolute;
-  bottom: 0;
-  right: 100px;
-  max-height: 90vh;
-}
 #services,
 #portfolio,
 #contact {
@@ -281,11 +275,6 @@ footer {
     min-width: 50vw;
   }
 
-  #home .men {
-    position: absolute;
-    height: 70vh;
-    right: 0;
-  }
 
   #home .content p {
     max-width: 100%;
@@ -369,11 +358,6 @@ footer {
     padding: 10px 20px;
   }
 
-  #home .men {
-    position: absolute;
-    height: 50vh;
-    right: 0;
-  }
   .secText h2 {
     font-size: 2em;
     text-align: center;
@@ -471,9 +455,6 @@ footer {
     height: 100vh;
     background: $mainColor;
   }
-  #home .men {
-    height: 40vh;
-  }
 
   #services .content,
   #portfolio .content,
@@ -490,7 +471,7 @@ footer {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   #home::before {
     background: $mainColor;
   }
