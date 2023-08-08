@@ -263,18 +263,24 @@ header ul li:hover a {
   color: #222;
 }
 
+footer {
+  width: 100%;
+  height: 20px;
+}
+
 .copyrights {
-  margin-top: 150px;
+  padding: 10px;
   position: relative;
   color: #aaa;
   font-size: 1.2em;
+  background: #222;
 }
 
-.copyrights a {
+.copyrights strong {
   color: #f74747;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
   #home .content {
     min-width: 50vw;
   }
@@ -283,8 +289,59 @@ header ul li:hover a {
     height: 70vh;
     right: 0;
   }
+  #home .content p {
+    max-width: 100%;
+  }
+  .copyrights {
+    padding: 30px 0;
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 1300px) {
+  #home .content p {
+    max-width: 90%;
+  }
+  .secText h2 {
+    padding-bottom: 20px;
+  }
+  #contact .content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .copyrights {
+    padding: 30px 0;
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 1151px) {
+  header ul li a {
+    color: #000;
+  }
+  header ul li.active a,
+  header ul li:hover a {
+    color: #fff;
+  }
+  #home .content h2 {
+    font-size: 4em;
+  }
+  #home .content p {
+    max-width: 70%;
+  }
+  #services .content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .copyrights {
+    padding: 30px 0;
+    font-size: 0.9em;
+  }
 }
 @media (max-width: 900px) {
+  header ul li a {
+    color: #fff;
+  }
+  header ul li.active a,
+  header ul li:hover a {
+    color: #f74747;
+  }
   header {
     padding: 20px 50px;
   }
@@ -293,8 +350,11 @@ header ul li:hover a {
     flex-direction: column;
     padding-bottom: 0;
   }
+  #home .content p {
+    max-width: 60%;
+  }
   #home .content h2 {
-    font-size: 4em;
+    font-size: 3em;
   }
   .btn {
     max-width: 160px;
@@ -308,6 +368,7 @@ header ul li:hover a {
   .secText h2 {
     font-size: 2em;
     text-align: center;
+    padding-bottom: 20px;
   }
   #services,
   #portfolio,
@@ -375,6 +436,10 @@ header ul li:hover a {
   header.active ul li a {
     font-size: 2em;
   }
+  .copyrights {
+    padding: 25px 0;
+    font-size: 0.8em;
+  }
 }
 @media (max-width: 700px) {
   #home .content h2 {
@@ -395,6 +460,37 @@ header ul li:hover a {
   }
   #contact .content a {
     height: 80px;
+  }
+  .copyrights {
+    font-size: 0.5em;
+  }
+}
+@media (max-width: 400px) {
+  #home::before {
+    background: #f74747;
+  }
+  #home .content {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #home .content h2 {
+    font-size: 2.5em;
+  }
+  #home .content p {
+    font-size: 1.1em;
+    width: 100vw;
+  }
+  .secText h2 {
+    padding-bottom: 20px;
+  }
+  #contact .content a {
+    font-size: 0.8em;
+  }
+  .copyrights {
+    font-size: 0.2em;
   }
 }
 

@@ -14,31 +14,31 @@
   
   <body>
     <header>
-      <a href="#" class="logo">Portifólio</a>
+      <div><a href="#home" class="logo">Portifólio</a></div>
       <div class="menuToggle"></div>
       <ul class="nav">
-        <li class="active"><a href="#home">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li class="active homeActive"><a href="#home">Inicio</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#portfolio">Portifólio</a></li>
+        <li><a href="#contact">Contatos</a></li>
       </ul>
     </header>
     <section id="home">
       <div class="content">
-        <h2>John Smith</h2>
+        <h2>José Vinícius</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, nisi!
           Dolorem doloribus at et, id mollitia placeat nisi autem unde magni,
           rerum reiciendis ullam illo reprehenderit exercitationem est velit
           nam.
         </p>
-        <a href="#" class="btn">Contact Me</a>
+        <a href="#contact" class="btn">Me contate</a>
       </div>
       <img src="../img/men.png" class="men" alt="men" />
     </section>
     <section id="services">
       <div class="secText">
-        <h2>What I Am Great At</h2>
+        <h2>No que eu sou bom</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, enim vel
           asperiores, at, nobis iusto ducimus doloremque eos reiciendis porro
@@ -64,12 +64,12 @@
         </div>
       </div>
       <div class="center">
-        <a href="#" class="btn">Hire Me</a>
+        <a href="#contact" class="btn">Contratar</a>
       </div>
     </section>
     <section id="portfolio">
       <div class="secText">
-        <h2>My Masterpiece Collection</h2>
+        <h2>Minha coleção de obras-primas</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, enim vel
           asperiores, at, nobis iusto ducimus doloremque eos reiciendis porro
@@ -97,12 +97,12 @@
         </div>
       </div>
       <div class="center">
-        <a href="#" class="btn">View More</a>
+        <a href="#" class="btn">Ver mais</a>
       </div>
     </section>
     <section id="contact">
       <div class="secText">
-        <h2>Ways To Contact Me</h2>
+        <h2>Formas de entrar em contato comigo</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, enim vel
           asperiores, at, nobis iusto ducimus doloremque eos reiciendis porro
@@ -110,16 +110,15 @@
         </p>
       </div>
       <div class="content">
-        <a href="#"> <ion-icon name="mail-outline"></ion-icon> jvincius_andrade@hotmail.com </a>
+        <a href="#"> <ion-icon name="mail-outline"></ion-icon> jvinicius_andrade@hotmail.com </a>
         <a href="#"> <ion-icon name="call-outline"></ion-icon> +55 (92) 99213-9057 </a>
         <a href="#"> <ion-icon name="logo-linkedin"></ion-icon> Linkedin </a>
         <a href="#"> <ion-icon name="logo-whatsapp"></ion-icon> Whatsapp </a>
       </div>
-      <div class="center">
-        <p class="copyrights">Copyrights &copy 2023 <a href="#">Vinicius Andrade</a>. All Right Reserved.</p>
-      </div>
     </section>
-
+    <footer class="center">
+        <p class="copyrights">Copyrights &copy 2023 <strong>Vinicius Andrade</strong>. All Right Reserved.</p>
+      </footer>
     <!-- Script icons -->
     <script
       type="module"
@@ -129,7 +128,7 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-    <!-- Script Animação Da barra de navegação -->
+    <!-- Script barra de navegação -->
     <script>
       let list = document.querySelectorAll('.nav li');
       function active(){
