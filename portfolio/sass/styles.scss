@@ -195,6 +195,16 @@ padding: 100px;
 }
 #portfolio .content .imgBx {
   position: relative;
+  padding-top: 20px;
+}
+#portfolio .content .imgBx .titleBx {
+    font-size: 2em;
+    color:#fff;
+    padding-bottom: 20px;
+    transition: 0.3s;
+}
+#portfolio .content .imgBx:hover .titleBx {
+  color: var(--bg);
 }
 #portfolio .content .imgBx img {
   max-width: 100%;
