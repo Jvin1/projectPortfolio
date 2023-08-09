@@ -1,2 +1,2 @@
 # projectPortfolio
-Criando um portifólio em HTML e CSS 
+Criando um portifólio em HTML, CSS e JavaScript 
