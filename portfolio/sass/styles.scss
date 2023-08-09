@@ -138,6 +138,7 @@ padding: 100px;
 .secText h2 {
   font-size: 3em;
   color:#fff;
+  margin-bottom: 20px;
 }
 .secText p {
   max-width: 700px;
@@ -297,6 +298,11 @@ footer {
   }
   #services .content {
     grid-template-columns: repeat(2,1fr);
+  }
+  #services .secText h2,
+  #portfolio .secText h2,
+  #contact .secText h2 {
+    font-size: 2em;
   }
   .copyrights {
     padding: 30px 0;
